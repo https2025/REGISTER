@@ -97,3 +97,31 @@ footer {
   background-color: #00ffb3;
   color: #111;
 }
+
+.auth-container {
+  max-width: 400px;
+  margin: 5rem auto;
+  background: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 6px;
+  background: #333;
+  color: white;
+}
+
+.auth-container button {
+  padding: 0.7rem 1.5rem;
+  background: #00ffb3;
+  color: #111;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
