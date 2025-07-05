@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>Dashboard</title>
+  <meta charset="UTF-8" />
+  <title>Dashboard - BotinAja</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="js/dashboard.js" defer></script>
 </head>
 <body>
-  <h2>Welcome to Dashboard!</h2>
-  <p>Berhasil login dan verifikasi 🎉</p>
+  <div class="auth-container">
+    <h2>Selamat datang, <span id="username">User</span>!</h2>
+    <p>Email: <span id="useremail"></span></p>
+    <p>No. WhatsApp: <span id="userphone"></span></p>
+    <button id="logoutBtn">Logout</button>
+  </div>
 </body>
 </html>
