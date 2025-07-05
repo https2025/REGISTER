@@ -3,14 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <title>Register - BotinAja</title>
-  <script type="module" src="js/auth.js" defer></script>
   <link rel="stylesheet" href="style.css" />
+  <script type="module" src="js/auth.js" defer></script>
 </head>
 <body>
   <div class="auth-container">
     <h2>Register BotinAja</h2>
+    <input type="text" id="firstName" placeholder="Nama Awal" />
+    <input type="text" id="lastName" placeholder="Nama Akhir" />
+    <input type="text" id="phoneNumber" placeholder="Nomor WhatsApp Aktif" />
     <input type="email" id="regEmail" placeholder="Email" />
     <input type="password" id="regPassword" placeholder="Password" />
+    <input type="password" id="regConfirm" placeholder="Ulangi Password" />
+    <label><input type="checkbox" id="showPass" /> Tampilkan Password</label>
     <button id="registerBtn">Register</button>
   </div>
 </body>
